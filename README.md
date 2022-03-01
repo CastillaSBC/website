@@ -1,9 +1,10 @@
 <div align="center">
+
 # Castilla
 <img src="https://espanafascinante.com/wp-content/uploads/Escudo-de-Castilla-pano.jpg">
 
 ### The fascinating sandbox.
-<div>
+</div>
 ## How to run locally.
 
 To run this project locally you'll need `pnpm` and node `v16`(LTS works fine)
