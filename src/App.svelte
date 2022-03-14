@@ -1,49 +1,77 @@
 <svelte:head>
-  <title>Castilla</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+<title>Castilla - The Open Sandbox</title>
+    <link data-n-head="ssr" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:300,400,600,700" />
 </svelte:head>
-<div class="text-white bg-gray-800 h-full w-full absolute">
-  <div class="md:mx-auto m-2 md:container mx-auto bg-zinc-800 border-b-4 border-b-rose-700">
-    <div class="p-2 md:flex mx-auto md:text-left text-center justify-items-center items-center justify-evenly space-x-2">
-      <div class="text-xl font-mono">Castilla <span class="bg-gray-300 inline-block font-mono p-0.5 rounded text-gray-500">v1.0</span></div>
-    </div>
-  </div>
-  <div class="container mx-auto bg-zinc-800 p-1 ">
-    <h1 class="text-2xl p-1 text-center">The FOSS solution for your community.</h1>
-    <div class="lg:w-2/4 mx-auto bg-zinc-900 p-2 rounded">
-      <p class="p-1 text-lg font-mono bg-zinc-700">Castilla, from a sandbox to a service.</p>
-      <p class="p-1 whitespace-pre-line">Castilla, originally was a sandbox website like many others, except it stood out for the impressive uptime on it's limited conditions, and friendly community.
+    <div style="background-image: url(https://share.wildbook.me/mKpRuVHQtUqLqMeT.jpg)" class="w-screen absolute bg-center bg-cover min-h-screen">
+      <div class="mx-auto container">
+        <div class="p-2 rounded md:flex gap-3 items-center text-white md:backdrop-brightness-75 mt-1">
+          <div class="text-3xl text-center font-extrabold">Castilla</div>
+          <div class="flex gap-2 justify-center">
+            <div class="cursor-pointer hover:underline">Homepage</div>
+            <div class="cursor-pointer hover:underline">Documentation</div>
+            <div class="cursor-pointer hover:underline">Discord</div>
+          </div>
+          <div class="md:flex text-center gap-2 w-full items-center md:justify-end">
 
-        But after almost two years, it shut down for a major good, the personal growth of the owners.
+<input class="outline-none  bg-black bg-opacity-25 rounded p-1" type="text">                        <div class="cursor-pointer hover:underline">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg></div>
 
-        And now a year later, the former <span class="underline">Castilla team along with Anomia</span> have worked to release Castilla <span class="bg-zinc-700 p-0.5 items-center rounded text-sm">V1.0</span>, the Open-Source version of Castilla. For everyone to use freely.
-      </p>
-    </div>
-  </div>
-  <div class="container mx-auto bg-zinc-800 p-1 border-b-4 text-center border-b-rose-700">
-    <h1 class="text-2xl p-1 text-center">FAQ</h1>
-    <div class="lg:w-2/4 mx-auto grid md:grid-cols-2 gap-2 bg-zinc-900 p-2 rounded">
-      <div class="bg-zinc-800 p-2 rounded shadow">
-        <div class="text-center mb-1"><li class="fa fa-question text-2xl "></li></div>
-        <p>Who is developing this?</p>
-        <p class="bg-rose-900 m-1  rounded p-1">Castilla developer & maintainer Gatari, aka Edge, aswell as many other open source contributors.</p>
+          </div>
+        </div>
+        <div class="p-2 md:backdrop-brightness-75 m-2 text-white justify-center rounded mx-auto grifed md:flex items-center">
+          <div class="mx-auto">
+            <img class="w-64 mx-auto md:w-2/4 p-6" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Arms_of_Castile_%2816th-20th_Centuries%29.svg/1200px-Arms_of_Castile_%2816th-20th_Centuries%29.svg.png" />
+          </div>
+          <div class="">
+            <p class="text-2xl text-center font-bold whitespace-pre-line">A <span class="text-rose-600">modern</span> self-hosted sandbox platform. 
+            For real.</p>
+  <p class="whitespace-pre-line">Castilla is a <span class="text-rose-600">modern</span> self-hosted sandbox platform that can handle your community needs. 
+
+            Built around an absurdly fast API with chunked uploads and fast socket connections, it can handle anything you throw at it. 
+
+            With focus on abiding all the security standards of web technologies, you can rest assured knowing your users data is safe and sound</p>
+          </div>
+        </div>
+        <div class="text-2xl text-white font-bold text-center">The <span class="underline text-rose-600  font-bold">Staff</span> behind the project.</div>
+        <div class="grid md:rid-cols-3 gap-3 p-2 text-white font-bold">
+          <div class="h-64 backdrop-brightness-75 p-2">
+            <img class="w-48 h-48 object-cover rounded-full mx-auto" src="https://1.bp.blogspot.com/-EWHCiJYjGIw/X2-PB-wGQkI/AAAAAAAAUjI/MMvQAFtwEdcEW2EPIQYUTB-_KXAKIz3FACLcBGAsYHQ/s1600/pastamania0.jpg" alt="" />
+            <div class="text-rose-600 text-3xl text-center">Shigetorum / Gatari</div>
+            <div class="text-center -my-2"><span class="text-rose-600">Web</span> Developer</div>
+          </div>
+          <div class="h-64 backdrop-brightness-75 p-2">
+            <img class="w-48 h-48 object-cover rounded-full mx-auto" src="https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/article/6206777e5cafe83bc9d2bf6a/spacex-starship_0.jpg" alt="" />
+            <div class="text-rose-600 text-3xl text-center">Kqpa</div>
+            <div class="text-center -my-2"><span class="text-rose-600">Server</span> Maintainer</div>
+          </div>
+          <div class="h-64 backdrop-brightness-75 p-2">
+            <img class="w-48 h-48 object-cover rounded-full mx-auto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7HyU6ZOA05_O2t2T49I8jN4-RTnfMFe02cA&usqp=CAU" alt="" />
+            <div class="text-rose-600 text-3xl text-center">Damir</div>
+            <div class="text-center -my-2"><span class="text-rose-600">Concepts</span> Creator</div>
+          </div>
+          <div class="h-64 backdrop-brightness-75 p-2">
+            <img class="w-48 h-48 object-cover rounded-full mx-auto" src="https://www.elcorreo.com/xlsemanal/wp-content/uploads/sites/5/2021/08/kalashnikov-ak47-historia-fusil-asalto-origen-fabricacion-armero-mijail-kalashnikov-movil.jpg" alt="" />
+            <div class="text-rose-600 text-3xl text-center">Studzy</div>
+            <div class="text-center -my-2"><span class="text-rose-600">Development</span> Advisor</div>
+          </div>
+          <div class="h-64 backdrop-brightness-75 p-2">
+            <img class="w-48 h-48 object-cover rounded-full mx-auto" src="https://support.discord.com/hc/article_attachments/360013500032/nitro_gif.gif" alt="" />
+            <div class="text-rose-600 text-3xl text-center">Stampe</div>
+            <div class="text-center -my-2"><span class="text-rose-600">Project</span> Supporter</div>
+          </div>
+
+            <div class="h-64 backdrop-brightness-75 p-2">
+            <img class="w-48 h-48 object-cover rounded-full mx-auto" src="https://support.discord.com/hc/article_attachments/360013500032/nitro_gif.gif" alt="" />
+            <div class="text-rose-600 text-3xl text-center">Cookies</div>
+            <div class="text-center -my-2"><span class="text-rose-600">Project</span> Supporter</div>
+          </div>
+        </div>
       </div>
-                <div class="bg-zinc-800 p-2 rounded shadow">
-        <div class="text-center mb-1"><li class="fa fa-question text-2xl "></li></div>
-        <p>Why is it open source?</p>
-        <p class="bg-rose-900 m-1 rounded p-1">We believe the sandbox platforms needs to expand further, and that includes giving everyone access to create their own secure yet fun platforms.</p>
-      </div>          <div class="bg-zinc-800 p-2 rounded col-span-2 shadow">
-        <div class="text-center mb-1"><li class="fa fa-question text-2xl "></li></div>
-        <p>Is it completely free to use?</p>
-        <p class="bg-rose-900 m-1 rounded p-1">In basic words, yes. But there's a catch. Castilla is released under a special license that conditions the owners to at least, credit the developers of this project in any instance hosted, and to not commercialize this project for security reasons.</p>
-      </div>
     </div>
-  </div>
-</div>
 
 <style>
-  :root {
-    --tw-bg-opacity: 1;
-    background-color: rgb(31 41 55 / var(--tw-bg-opacity));
-}
+   <style>
+      :root {
+      font-family: "Nunito", sans-serif}
+    </style>
 </style>
