@@ -70,8 +70,8 @@
     </div>
 
 <style>
-   <style>
+   
       :root {
       font-family: "Nunito", sans-serif}
-    </style>
+
 </style>
